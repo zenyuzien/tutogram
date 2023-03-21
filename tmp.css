@@ -1,0 +1,20 @@
+
+.fcc-btn {
+    background-color: #199319;
+    color: white;
+    border-radius: 10%;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: double;
+  }
+
+  h1
+  {
+    text-align: center;
+    color : red; 
+  }
+
+  body
+  {
+    background-color: aqua;
+  }
