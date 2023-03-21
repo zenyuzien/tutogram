@@ -1,3 +1,6 @@
 # tutogram
+CURRENT BUILD STATUS:
 
-come back later
+core algorithms almost done.
+The idealogy for chats is finalised.
+Prototype expected within a week
