@@ -1,0 +1,212 @@
+// no.of rows effected from query
+// single table involvment case
+
+if ($result = mysqli_query($mysqli, $sql) )
+{
+  if(mysqli_num_rows($result)>0)
+  {
+
+    while($row = mysqli_fetch_assoc($result))
+    {
+        ;
+    }
+  }
+}  
+
+
+if ($result = mysqli_query($mysqli, $sql) )
+if(mysqli_num_rows($result)>0)
+while($row = mysqli_fetch_assoc($result))
+    
+https://stackoverflow.com/questions/5966746/best-way-to-initialize-empty-array-in-php
+https://makitweb.com/prevent-multiple-login-of-same-account-with-php/
+
+if(mysqli_multi_query($mysqli,$sql)
+/*if($mysqli->multi_query($sql)) )*/
+
+$var = 5;
+
+// Inline variable parsing
+echo "I'd like {$var} waffles"; // = I'd like 5 waffles
+
+// String concatenation 
+echo "I'd like ".$var." waffles"; // I'd like 5 waffles
+
+// The two examples above have the same end value...
+// ... And so do the two below
+
+// Explicit cast 
+$items = (string)$var; // $items === "5";
+
+// Function call
+$items = strval($var); // $items === "5";
+
+
+create table subjects (
+	subjectname varchar(50),
+    nU int
+);
+
+insert into subjects values('S1','3');
+insert into subjects values('S2','2');
+insert into subjects values('S3','2');
+insert into subjects values('S4','2');
+insert into subjects values('S5','4');
+
+create table S1(
+	unitID int PRIMARY KEY AUTO_INCREMENT,
+    unitname varchar(50),
+    nT int
+);
+
+insert into S1 values('1','U1',2);
+
+create table S1_U1(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S1_U1 values (1, 'T1');
+insert into S1_U1 values (2, 'T2');
+
+insert into S1 (unitname, nT) values('U2',3);
+
+create table S1_U2(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S1_U2 values (1, 'T1');
+insert into S1_U2 values (2, 'T2');
+insert into S1_U2 values (3, 'T3');
+
+insert into S1 (unitname, nT) values('U3',3);
+
+create table S1_U3(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S1_U3 values (1, 'T1');
+insert into S1_U3 values (2, 'T2');
+insert into S1_U3 values (3, 'T3');
+
+create table S2(
+	unitID int PRIMARY KEY AUTO_INCREMENT,
+    unitname varchar(50),
+    nT int
+);
+
+insert into S2 values('1','U1',2);
+
+create table S2_U1(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S2_U1 values (1, 'T1');
+insert into S2_U1 values (2, 'T2');
+
+insert into S2 (unitname, nT) values('U2',3);
+
+create table S2_U2(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S2_U2 values (1, 'T1');
+insert into S2_U2 values (2, 'T2');
+insert into S2_U2 values (3, 'T3');
+
+create table S3(
+	unitID int PRIMARY KEY AUTO_INCREMENT,
+    unitname varchar(50),
+    nT int
+);
+
+insert into S3 values('1','U1',2);
+
+create table S3_U1(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S3_U1 values (1, 'T1');
+insert into S3_U1 values (2, 'T2');
+
+insert into S3 (unitname, nT) values('U2',3);
+
+create table S3_U2(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S3_U2 values (1, 'T1');
+insert into S3_U2 values (2, 'T2');
+insert into S3_U2 values (3, 'T3');
+
+create table S4(
+	unitID int PRIMARY KEY AUTO_INCREMENT,
+    unitname varchar(50),
+    nT int
+);
+
+insert into S4 values('1','U1',2);
+
+create table S4_U1(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S4_U1 values (1, 'T1');
+insert into S4_U1 values (2, 'T2');
+
+insert into S4 (unitname, nT) values('U2',3);
+
+create table S4_U2(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S4_U2 values (1, 'T1');
+insert into S4_U2 values (2, 'T2');
+insert into S4_U2 values (3, 'T3');
+
+create table S5(
+	unitID int PRIMARY KEY AUTO_INCREMENT,
+    unitname varchar(50),
+    nT int
+);
+
+insert into S5 values('1','U1',2);
+
+create table S5_U1(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S5_U1 values (1, 'T1');
+insert into S5_U1 values (2, 'T2');
+
+insert into S5 (unitname, nT) values('U2',3);
+
+create table S5_U2(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S5_U2 values (1, 'T1');
+insert into S5_U2 values (2, 'T2');
+insert into S5_U2 values (3, 'T3');
+
+insert into S5 (unitname, nT) values('U3',2);
+
+create table S5_U3(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S5_U3 values (1, 'T1');
+insert into S5_U3 values (2, 'T2');
+insert into S5_U3 values (3, 'T3');
+
+insert into S5 (unitname, nT) values('U4',3);
+
+create table S5_U4(
+	sbtID int PRIMARY KEY AUTO_INCREMENT,
+    sbtname varchar(50)
+);
+insert into S5_U4 values (1, 'T1');
+insert into S5_U4 values (2, 'T2');
+insert into S5_U4 values (3, 'T3');
+insert into S5_U4 values (4, 'T4');
+
+
