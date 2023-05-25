@@ -58,7 +58,7 @@ function getBucket($bucket, $strings_of_u, $i, $comm_units )
     $tmp_uname = "" ;
     $j++;
     while($strings_of_u[$i][$j]!='@' && $strings_of_u[$i][$j]!='#' )
-    {/********wtf */
+    {
       $tmp_uname = $tmp_uname. $strings_of_u[$i][$j] ;
       $j++;
     }
@@ -421,7 +421,7 @@ if ($result = mysqli_query($mysqli, $sql) )
             ;//echo "<br>";
 
             // to get list of common subtopics from each unit from comm units
-            // the 3rd level bitch
+            
             $com_st_u1 = [] ;
             $com_st_u2= [] ;
 
